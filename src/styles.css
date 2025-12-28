@@ -1,0 +1,41 @@
+:root {
+  --card-bg: #fff;
+  --bg: #f6f8fa;
+  --accent: #2b6df6;
+}
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Arial, sans-serif;
+  background: var(--bg);
+  color: #111;
+}
+.app header {
+  padding: 16px;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+main {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+.left {
+  flex: 2;
+}
+.right {
+  flex: 1;
+}
+.card {
+  background: var(--card-bg);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(12,12,12,0.04);
+}
+.tuner .note {
+  font-size: 36px;
+  font-weight: 700;
+}
+.tuner .cents {
+  color: #666;
+}
